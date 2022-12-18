@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> SCHOOL</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="../code/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="../code/images/hero-abs-1.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="../code/images/hero-abs-2.png" media="min-width(768px)">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">School</a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">School</a>
+
+          <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-toggler>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-toggler>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="../code/all.html" class="navbar-link" data-nav-toggler>Courses</a>
+          </li>
+
+         
+
+          <li class="navbar-item">
+            <a href="../code/my page/my.html" class="navbar-link" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <a href="login/login.html" class="header-action-btn login-btn">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Login / Register</span>
+        </a>
+
+        <button class="header-action-btn nav-open-btn" aria-label="Open menu" data-nav-toggler>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-box>
+    <div class="container">
+
+      <button class="search-close-btn" aria-label="Close search" data-search-toggler>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="search-wrapper">
+        <input type="search" name="search" placeholder="Search Here..." aria-label="Search" class="search-field">
+
+        <button class="search-submit" aria-label="Submit" data-search-toggler>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="hero" style="background-image: url('../code/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">مستقبل تعلم أفضل معنا</p>
+
+            <h2 class="h1 hero-title"> التعليم هو علي اي شئ وفوق اي شئ</h2>
+
+            <p class="hero-text">
+              التعليم هو الهدف والرساله والحياه  
+            </p>
+
+            <a href="../code/all.html" class="btn btn-primary">
+              <span class="span">ابدأ اليوم</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner">
+
+            <img src="../code/images/hero-banner.png" width="500" height="500" loading="lazy" alt="hero image"
+              class="w-100">
+
+            <img src="../code/images/hero-abs-1.png" width="318" height="352" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-1">
+
+            <img src="../code/images/hero-abs-2.png" width="160" height="160" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-2">
+
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-label="category">
+        <div class="container" >
+           
+          <p class="section-subtitle">فئات الدورة</p>
+
+          <h2 class="h2 section-title">مواضيع شائعة للتعلم</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="https://youtube.com/playlist?list=PL5isa5XjlZ5o8Btxuei752B1_DlN8skCv">تطوير الذات</a>
+                  </h3>
+
+                  <span class="card-meta">33 دورة</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="file-tray-full-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="https://youtube.com/playlist?list=PLt0thylmbOcnT-kLmffFUMr603nPRM109">البحوث الإنسان</a>
+                  </h3>
+
+                  <span class="card-meta">21 دورة</span>
+                </div>
+
+              </div>
+            </li>
+            <li>
+                <div class="category-card">
+  
+                  <div class="card-icon">
+                    <ion-icon name="color-palette-outline"></ion-icon>
+                  </div>
+  
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="https://youtube.com/playlist?list=PLQA612FPiM4hz2YXR0IgZxBMBrEoo4TSe">تصميم فني</a>
+                    </h3>
+  
+                    <span class="card-meta">35 دورة</span>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="category-card">
+  
+                  <div class="card-icon">
+                    <ion-icon name="layers-outline"></ion-icon>
+                  </div>
+  
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="https://youtube.com/playlist?list=PLOCh5LlhW5hc9X5-t5TuhMbLjbEoJrnMk">ادارة اعمال</a>
+                    </h3>
+  
+                    <span class="card-meta">38 دورة</span>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="category-card">
+  
+                  <div class="card-icon">
+                    <ion-icon name="laptop-outline"></ion-icon>
+                  </div>
+  
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="https://youtube.com/playlist?list=PLMYF6NkLrdN9wzmjRlcO1UsqgO6KUTODC">تطوير الشبكة</a>
+                    </h3>
+  
+                    <span class="card-meta">105 دورة</span>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="category-card">
+  
+                  <div class="card-icon">
+                    <ion-icon name="thumbs-up-outline"></ion-icon>
+                  </div>
+  
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="https://youtube.com/playlist?list=PLiY-jf8J2Mplc6151KJnXdzFYT9LO5Drs">أسلوب الحياة</a>
+                    </h3>
+  
+                    <span class="card-meta">27 دورة</span>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="category-card">
+  
+                  <div class="card-icon">
+                    <ion-icon name="headset-outline"></ion-icon>
+                  </div>
+  
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="https://youtube.com/playlist?list=PLkJC3xpI6Jik3LkF5thBw_q6Hd0i3GFnX">التسويق الرقمي</a>
+                    </h3>
+  
+                    <span class="card-meta">58 دورة</span>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="category-card">
+  
+                  <div class="card-icon">
+                    <ion-icon name="server-outline"></ion-icon>
+                  </div>
+  
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="https://youtube.com/playlist?list=PLWd4nYaF_Vx65cPZF_I2OpWERatzh5Gdj">علوم البيانات</a>
+                    </h3>
+  
+                    <span class="card-meta">19 دورة</span>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="category-card">
+  
+                  <div class="card-icon">
+                    <ion-icon name="medkit-outline"></ion-icon>
+                  </div>
+  
+                  <div>
+                    <h3 class="h3 card-title">
+                      <a href="https://youtube.com/playlist?list=PLgJJOLnBSZ5tGDXJ51iBt2NuhEVCaDWaN">الصحة واللياقة البدنية</a>
+                    </h3>
+  
+                    <span class="card-meta">34 دورة</span>
+                  </div>
+  
+                </div>
+              </li>
+  
+            </ul>
+  
+          </div>
+        </section>
+  
+  
+  
+  
+  
+        <!-- 
+          - #ABOUT
+        -->
+  
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+  
+            <figure class="about-banner">
+  
+              <img src="../code/images/about-banner.jpg" width="450" height="590" loading="lazy" alt="about banner"
+                class="w-100 about-img">
+  
+              <img src="../code/images/about-abs-1.jpg" width="188" height="242" loading="lazy" aria-hidden="true"
+                class="abs-img abs-img-1">
+  
+              <img src="../code/images/about-abs-2.jpg" width="150" height="200" loading="lazy" aria-hidden="true"
+                class="abs-img abs-img-2">
+  
+            </figure>
+  
+            <div class="about-content">
+  
+              <p class="section-subtitle">من نحن</p>
+  
+              <h2 class="h2 section-title">نحن نقدم أفضل شركة برمجه</h2>
+  
+              <ul class="about-list">
+  
+                <li class="about-item">
+  
+                  <div class="item-icon item-icon-1">
+                    <img src="../code/images/about-icon-1.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                  </div>
+  
+                  <div>
+                    <h3 class="h3 item-title">مدرب خبير في البرمجه</h3>
+  
+                    <p class="item-text">
+                      I am an experienced programmerز
+                    </p>
+                  </div>
+  
+                </li>
+  
+                <li class="about-item">
+  
+                  <div class="item-icon item-icon-2">
+                    <img src="../code/images/about-icon-2.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                  </div>
+  
+                  <div>
+                    <h3 class="h3 item-title">محتوى الدورة التدريبية محدث</h3>
+  
+                    <p class="item-text">
+                      The best course content ever
+                    </p>
+                  </div>
+  
+                </li>
+  
+                <li class="about-item">
+  
+                  <div class="item-icon item-icon-3">
+                    <img src="../code/images/about-icon-3.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                  </div>
+  
+                  <div>
+                    <h3 class="h3 item-title">أكبر مجتمع طلابي</h3>
+  
+                    <p class="item-text">
+                      The largest and best student communityز
+                    </p>
+                  </div>
+  
+                </li>
+  
+              </ul>
+  
+              <a href="../code/my page/my.html" class="btn btn-primary">
+                <span class="span">تعرف علينا</span>
+  
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </a>
+  
+            </div>
+  
+          </div>
+        </section>
+  
+  
+  
+  
+  
+        <!-- 
+          - #COURSE
+        -->
+  
+        <section class="section course" id="courses" aria-label="course"
+          style="background-image: url('../code/images/course-bg.jpg')">
+          <div class="container">
+  
+            <p class="section-subtitle">الدورات الشعبية</p>
+  
+            <h2 class="h2 section-title">دوراتنا الشعبية</h2>
+  
+            <ul class="grid-list">
+  
+              <li>
+                <div class="course-card">
+  
+                  <figure class="card-banner">
+                    <img src="../code/images/course-1.jpg" width="370" height="270" loading="lazy"
+                      alt="Competitive Strategy law for all students" class="img-cover">
+                  </figure>
+  
+                  <div class="card-actions">
+  
+                    <span class="badge">متوسط</span>
+  
+                    <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+  
+                  </div>
+  
+                  <div class="card-content">
+  
+                    <ul class="card-meta-list">
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">35 دروس</span>
+                      </li>
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+  
+                        <time datetime="PT18H15M44S" class="card-meta-text">18 س 15 د 44 ث
+                        </time>
+                      </li>
+  
+                    </ul>
+  
+                    <h3 class="h3">
+                      <a href="https://youtu.be/WejOutZdCDo" class="card-title">قانون الإستراتيجية التنافسية لجميع الطلاب</a>
+                    </h3>
+  
+                    <div class="rating-wrapper">
+  
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <span class="rating-text">(108 إعادة النظر)</span>
+  
+                    </div>
+  
+                    <div class="card-footer">
+  
+                      <div class="card-price">
+                        <span class="span">$0</span>
+  
+                        <del class="del">$39.00</del>
+                      </div>
+  
+                      <div class="card-meta-item">
+                        <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">60 الطلاب</span>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="course-card">
+  
+                  <figure class="card-banner">
+                    <img src="../code/images/course-2.jpg" width="370" height="270" loading="lazy"
+                      alt="Machine Learning A-Z: Hands-On Python and java" class="img-cover">
+                  </figure>
+  
+                  <div class="card-actions">
+  
+                    <span class="badge">متقدم</span>
+  
+                    <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+  
+                  </div>
+  
+                  <div class="card-content">
+  
+                    <ul class="card-meta-list">
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">48 الدروس</span>
+                      </li>
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+  
+                        <time datetime="PT18H15M44S" class="card-meta-text">   5:57   </time>
+                      </li>
+  
+                    </ul>
+  
+                    <h3 class="h3">
+                      <a href="https://youtube.com/playlist?list=PLuXY3ddo_8nzrO74UeZQVZOb5-wIS6krJ" class="card-title">تعلم الآلة من الألف إلى الياء: التدريب العملي على بايثون وجافا</a>
+                    </h3>
+  
+                    <div class="rating-wrapper">
+  
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <span class="rating-text">(185 إعادة النظر)</span>
+  
+                    </div>
+  
+                    <div class="card-footer">
+  
+                      <div class="card-price">
+                        <span class="span">مجان</span>
+                      </div>
+  
+                      <div class="card-meta-item">
+                        <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">90 الطلاب</span>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="course-card">
+  
+                  <figure class="card-banner">
+                    <img src="../code/images/course-3.jpg" width="370" height="270" loading="lazy"
+                      alt="Achieving Advanced in Insights with Big" class="img-cover">
+                  </figure>
+  
+                  <div class="card-actions">
+  
+                    <span class="badge">أساسي</span>
+  
+                    <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+  
+                  </div>
+  
+                  <div class="card-content">
+  
+                    <ul class="card-meta-list">
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">80 دروس</span>
+                      </li>
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+  
+                        <time datetime="PT18H15M44S" class="card-meta-text">__</time>
+                      </li>
+  
+                    </ul>
+  
+                    <h3 class="h3">
+                      <a href="#" class="card-title">تحقيق تقدم في الرؤى مع Big</a>
+                    </h3>
+  
+                    <div class="rating-wrapper">
+  
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <span class="rating-text">(18 إعادة النظر)</span>
+  
+                    </div>
+  
+                    <div class="card-footer">
+  
+                      <div class="card-price">
+                         <span class="span">$59.00   _ غير متاح الان</span> 
+  
+                        <del class="del">_$69.00</del>
+                      </div>
+  
+                      <div class="card-meta-item">
+                        <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">42 الطلاب</span>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="course-card">
+  
+                  <figure class="card-banner">
+                    <img src="../code/images/course-4.jpg" width="370" height="270" loading="lazy"
+                      alt="Education Makes A Person A Responsible Citizen" class="img-cover">
+                  </figure>
+  
+                  <div class="card-actions">
+  
+                    <span class="badge">متوسط</span>
+  
+                    <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+  
+                  </div>
+  
+                  <div class="card-content">
+  
+                    <ul class="card-meta-list">
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">31 دروس</span>
+                      </li>
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+  
+                        <time datetime="PT18H15M44S" class="card-meta-text">18 س 15 د 44 ث</time>
+                      </li>
+  
+                    </ul>
+  
+                    <h3 class="h3">
+                      <a href="#" class="card-title">التعليم يجعل الإنسان مواطناً مسؤولاً</a>
+                    </h3>
+  
+                    <div class="rating-wrapper">
+  
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <span class="rating-text">(18 إعادة النظر)</span>
+  
+                    </div>
+  
+                    <div class="card-footer">
+  
+                      <div class="card-price">
+                        <span class="span">$49.00 __ غيرر متاح الان</span>
+  
+                        <del class="del">$59.00</del>
+                      </div>
+  
+                      <div class="card-meta-item">
+                        <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">46 الطلاب</span>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="course-card">
+  
+                  <figure class="card-banner">
+                    <img src="../code/images/course-5.jpg" width="370" height="270" loading="lazy"
+                      alt="Building A Better World One Student At A Time" class="img-cover">
+                  </figure>
+  
+                  <div class="card-actions">
+  
+                    <span class="badge">متقدم</span>
+  
+                    <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+  
+                  </div>
+  
+                  <div class="card-content">
+  
+                    <ul class="card-meta-list">
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">36 دروس</span>
+                      </li>
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+  
+                        <time datetime="PT18H15M44S" class="card-meta-text">18 س 15 د 44 ث</time>
+                      </li>
+  
+                    </ul>
+  
+                    <h3 class="h3">
+                      <a href="#" class="card-title">بناء عالم أفضل طالب واحد في كل مرة</a>
+                    </h3>
+  
+                    <div class="rating-wrapper">
+  
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <span class="rating-text">(18 إعادة النظر)</span>
+  
+                    </div>
+  
+                    <div class="card-footer">
+  
+                      <div class="card-price">
+                        <span class="span">$29.00  __غير متاح الان</span>
+  
+                        <del class="del">$39.00</del>
+                      </div>
+  
+                      <div class="card-meta-item">
+                        <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">91 الطلاب</span>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="course-card">
+  
+                  <figure class="card-banner">
+                    <img src="../code/images/course-6.jpg" width="370" height="270" loading="lazy"
+                      alt="Education is About Forming Faithful Disciples" class="img-cover">
+                  </figure>
+  
+                  <div class="card-actions">
+  
+                    <span class="badge">أساسي</span>
+  
+                    <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+  
+                  </div>
+  
+                  <div class="card-content">
+  
+                    <ul class="card-meta-list">
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">21 دروس</span>
+                      </li>
+  
+                      <li class="card-meta-item">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+  
+                        <time datetime="PT18H15M44S" class="card-meta-text">18 س 15 د 44 ث</time>
+                      </li>
+  
+                    </ul>
+  
+                    <h3 class="h3">
+                      <a href="https://youtu.be/PSkA9Zsf8S4" class="card-title">التعليم هو تكوين التوابع المخلصين</a>
+                    </h3>
+  
+                    <div class="rating-wrapper">
+  
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <span class="rating-text">(18 إعادة النظر)</span>
+  
+                    </div>
+  
+                    <div class="card-footer">
+  
+                      <div class="card-price">
+                        <span class="span">$0</span>
+  
+                        <del class="del">$89.00</del>
+                      </div>
+  
+                      <div class="card-meta-item">
+                        <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+  
+                        <span class="card-meta-text">22 الطلاب</span>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+            </ul>
+  
+            <a href="../code/all.html" class="btn btn-primary">
+              <span class="span">عرض جميع الدورات</span>
+  
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+  
+          </div>
+        </section>
+         
+             
+  
+  
+        <!-- 
+          - #CTA
+        -->
+  
+    
+  
+  
+  
+  
+  
+        <!-- 
+          - #EVENT
+        -->
+  
+  
+  
+  
+  
+        <!-- 
+          - #NEWSLETTER
+        -->
+  
+     
+  
+      </article>
+    </main>
+  
+  
+  
+  
+  
+    <!-- 
+      - #FOOTER
+    -->
+  
+    <footer class="footer" id="about">
+      <div class="container">
+  
+        <div class="footer-top">
+  
+          <div class="footer-brand">
+  
+            <a href="#" class="logo">School</a>
+  
+            <p class="section-text">
+               <h3>
+                تعلم معنا 
+               </h3>
+            </p>
+  
+            <ul class="social-list">
+                <li>
+                    <a href="https://www.facebook.com/Mohmedomedov7xmedo82345688?mibextid=ZbWKwL" class="social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="https://www.linkedin.com/in/ahmed-shaban-184049239" class="social-link">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+      
+                 
+                </ul>
+      
+              </div>
+      
+              <ul class="footer-list">
+      
+                <li>
+                  <p class="footer-list-title">يكتشف</p>
+                </li>
+      
+                <li>
+                  <a href="../code/my page/my.html" class="footer-link">
+                    <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+      
+                    <span class="span">معلومات عن مبرمج الموقع</span>
+                  </a>
+                </li>
+      
+                
+      
+                <li>
+                  <a href="https://www.facebook.com/ElzeroWebSchool/?mibextid=ZbWKwL" class="footer-link">
+                    <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+      
+                    <span class="span">الملف الشخصي للمدرب</span>
+                  </a>
+                </li>
+      
+                
+    
+                <li>
+                  <a href="../code/all.html" class="footer-link">
+                    <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+      
+                    <span class="span">الدورات الشعبية</span>
+                  </a>
+                </li>
+      
+                
+      
+              </ul>
+      
+              <ul class="footer-list">
+      
+                <li>
+                  <p class="footer-list-title">معلومات الاتصال</p>
+                </li>
+      
+                <li class="footer-item">
+                  <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+      
+                  <address class="footer-link">
+                    مجهول العنوان
+                  </address>
+                </li>
+      
+                <li class="footer-item">
+                  <ion-icon name="call" aria-hidden="true"></ion-icon>
+      
+                  <a href="tel:+ 20 1023128505" class="footer-link">My Numper</a>
+                </li>
+      
+                <li class="footer-item">
+                  <ion-icon name="call" aria-hidden="true"></ion-icon>
+      
+                  <a href="tel:+ 20 1023128505" class="footer-link">My Numper</a>
+                </li>
+      
+                <li class="footer-item">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+      
+                  <a href="ahmed791shaban@gmail.com" class="footer-link">My Email</a>
+                </li>
+      
+              </ul>
+      
+            </div>
+      
+            <div class="footer-bottom">
+              <p class="copyright">
+                The site was programmed by <a href="../code/my page/my.html" class="copyright-link">  Ahmed Shaban </a>
+              </p>
+            </div>
+      
+          </div>
+        </footer>
+      
+      
+      
+      
+      
+        <!-- 
+          - #BACK TO TOP
+        -->
+      
+        <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+          <ion-icon name="arrow-up"></ion-icon>
+        </a>
+      
+      
+      
+      
+      
+        <!-- 
+          - custom js link
+        -->
+        <script src="./script.js" defer></script>
+      
+        <!-- 
+          - ionicon link
+        -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      
+      </body>
+      
+      </html>
+     
+        
